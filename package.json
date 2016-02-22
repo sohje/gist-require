@@ -1,0 +1,39 @@
+{
+  "name": "gist-require",
+  "version": "1.0.0",
+  "description": "Require JavaScript module from Gist URL",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/sohje/gist-require.git",
+    "type": "git"
+  },
+  "author": {
+    "name": "Nikolay Spiridonov",
+    "email": "nikolay.spiridonov@gmail.com"
+  },
+  "engines": {
+    "node": ">=4.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "gist",
+    "github",
+    "require",
+    "command",
+    "exports",
+    "module",
+    "gist-require",
+    "modules",
+    "net",
+    "filesystem",
+    "data",
+  ],
+  "devDependencies": {
+    "ava": "*"
+  }
+}
