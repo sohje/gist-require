@@ -21,7 +21,7 @@ module.exports = () => {console.log('Hello from Gist')}
 ```js
 var gistr = require('gist-require')
 var url = 'https://gist.github.com/sohje/73a80333911026a1be25'
-gistr(url, function(err, data) {
+gistr(url, (err, data) => {
 	data() //=> Hello from Gist
 })
 ```
