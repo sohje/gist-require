@@ -1,5 +1,5 @@
 import test from 'ava';
-import gistr from 'gist-require';
+import gistr from './index.js';
 
 test(t => {
     t.throws(gistr)
