@@ -1,4 +1,4 @@
-# gist-require
+# gist-require [![Build Status](https://travis-ci.org/sohje/gist-require.svg?branch=master)](https://travis-ci.org/sohje/gist-require)
 Require JavaScript module from Gist URL
 
 *NOTE* only 1 file per gist with correct type 'application/javascript'
