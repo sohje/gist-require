@@ -11,6 +11,7 @@ test.cb(t => {
     gistr(url, (err, data) => {
         // t.ok(data);
         // t.notThrows(data);
+        // Github API rate limiting for travis servers...
         t.ifError(!err);
         t.end();
     })
